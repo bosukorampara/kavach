@@ -1,0 +1,32 @@
+# Python
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Secrets / local config
+.env
+dashboard/.env
+
+# Node
+node_modules/
+dashboard/node_modules/
+dashboard/build/
+
+# Local databases and logs
+data/*.db
+logs/*
+!logs/.gitkeep
+*.log
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp

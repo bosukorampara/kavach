@@ -1,0 +1,12 @@
+Flask>=3.0.2
+Flask-Cors>=4.0.0
+python-dotenv>=1.0.0
+numpy>=1.26.0
+pandas>=2.1.0
+scikit-learn>=1.3.0
+joblib>=1.3.0
+kafka-python>=2.0.2
+PyJWT>=2.8.0
+requests>=2.31.0
+# Optional deep-learning support for the UEBA autoencoder
+torch>=2.1.0
